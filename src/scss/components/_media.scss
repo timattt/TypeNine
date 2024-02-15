@@ -1,0 +1,177 @@
+@media screen and (max-width: 1036px) {
+  .container-def {
+    max-width: 768px;
+  }
+
+  .top-menu__links {
+    margin-left: 20px;
+  }
+
+  .top-menu__imgs {
+    margin-right: 10px;
+  }
+
+  .home-info__products {
+    margin-left: 0px;
+  }
+
+  .home-info {
+    flex-wrap: wrap;
+  }
+
+  .home-info__text {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .home-info__contact {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-def {
+    max-width: 600px;
+  }
+
+  .top-menu__content {
+    flex-wrap: wrap;
+  }
+
+  .top-menu__links {
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .top-menu__imgs {
+    margin-right: 40px;
+  }
+
+  .sec-content__wrap {
+    padding: 40px 0;
+  }
+
+  .home-info__contact {
+    width: 188px;
+  }
+
+  .home-info__text {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-menu__imgs {
+    display: none;
+  }
+
+  .top-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+  }
+
+  .sec-content {
+    padding-top: 93px;
+  }
+
+  .top-menu__links {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    width: 50%;
+    min-width: 250px;
+    overflow-y: auto;
+    z-index: 100;
+    background: #fff;
+    padding: 21px 30px;
+    transition: .3s;
+
+    &.active {
+      right: 0%;
+    }
+  }
+
+  .links-def {
+    display: block;
+
+    &__el {
+      margin: 0;
+    }
+
+    &__link {
+      font-size: 22px;
+      text-align: right;
+      padding: 20px 0px;
+    }
+  }
+
+  .home-info__btn {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-info__products {
+    width: 100%;
+  }
+
+  .home-info__contact {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .contact-block {
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .container-def {
+    padding: 0 30px;
+  }
+
+  .top-menu__logo {
+    margin: 0;
+  }
+
+  .top-menu__content {
+    justify-content: space-between;
+  }
+
+  .top-menu__links-btn {
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container-def {
+    padding: 0 15px;
+  }
+
+  .top-menu__links {
+    padding: 21px 15px;
+  }
+
+  .logo-def__img {
+    height: 37px;
+    width: 170px;
+  }
+
+  .btn-burger {
+    height: 37px;
+    width: 37px;
+  }
+
+  .sec-content {
+    padding-top: 80px;
+  }
+}

@@ -1,0 +1,159 @@
+button {
+	border: 0;
+	box-shadow: none;
+	padding: 0;
+	background: transparent;
+	line-height: 1;
+	text-align: left;
+}
+
+img {
+	object-fit: contain;
+}
+
+.imgs-def {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0;
+	width: 100px;
+
+	&__img {
+		display: block;
+		object-fit: cover;
+		width: 50%;
+		height: 50px;
+	}
+}
+
+.logo-def {
+	font-size: 0;
+	flex: none;
+
+	&__img {
+		flex: none;
+		height: auto;
+		width: 213px;
+		height: 46px;
+	}
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -7px;
+	margin-right: -7px;
+	margin-bottom: -14px;
+
+	&__el {
+		width: 50%;
+		padding: 0 7px;
+		margin-bottom: 14px;
+
+		&:nth-child(2) {
+			.products-el {
+				&::after {
+					background: rgba(182, 232, 227, 0.39);
+				}
+			}
+		}
+
+		&:nth-child(3) {
+			.products-el {
+				&::after {
+					background: rgba(158, 140, 40, 0.6);
+				}
+			}
+		}
+
+		&:nth-child(4) {
+			.products-el {
+				&::after {
+					background: rgba(160, 160, 159, 0.7);
+				}
+			}
+		}
+	}
+
+	&-el {
+		display: block;
+		position: relative;
+		height: 0;
+		padding-bottom: 100%;
+		border-radius: 5px;
+		overflow: hidden;
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(233, 159, 134, 0.42);
+			z-index: 2;
+			transition: .3s;
+			opacity: 1;
+		}
+
+		&__bg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			object-fit: cover;
+			user-select: none;
+		}
+
+		&__content {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			z-index: 10;
+			padding: 20px;
+		}
+
+		&__title {
+			font-size: 18px;
+			color: rgb(47, 46, 46);
+			font-weight: 700;
+		}
+
+		&:hover {
+			&::after {
+				opacity: 0;
+			}
+		}
+	}
+}
+
+.contact-block {
+	&__title {
+		font-size: 18px;
+		color: rgb(43, 124, 116);
+	}
+
+	&__text {
+		font-size: 18px;
+		color: rgb(96, 94, 94);
+	}
+}
+
+.btn-burger {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+	background: #fff;
+}
