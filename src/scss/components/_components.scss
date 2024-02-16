@@ -44,6 +44,8 @@ img {
 	margin-right: -7px;
 	margin-bottom: -14px;
 
+
+
 	&__el {
 		width: 50%;
 		padding: 0 7px;
@@ -156,4 +158,139 @@ img {
 	height: 50px;
 	border: 1px solid #000;
 	background: #fff;
+}
+
+.products-info {
+	&__top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 47px;
+	}
+}
+
+.products-imgs {
+	display: flex;
+	font-size: 0;
+
+	&-el {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 0;
+		width: 65px;
+		height: 63px;
+		padding: 5px;
+		background: #fff;
+		box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px 0px;
+
+		&__img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+	}
+}
+
+.links-products {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -70px;
+	margin-right: -70px;
+
+	&_2 {
+		margin-left: -20px;
+		margin-right: -20px;
+
+		.links-products__el {
+			width: 33.333333%;
+			padding: 0 20px;
+		}
+	}
+
+	&__side {
+		width: 50%;
+		padding: 0 70px;
+
+		.links-products-el {
+			margin-bottom: 40px;
+		}
+	}
+
+	&__el {
+		width: 50%;
+		padding: 0 70px;
+		margin-bottom: 60px;
+
+		.links-products-el {
+			height: 100%;
+		}
+	}
+
+	&__title {
+		margin-bottom: 20px;
+	}
+
+	&-el {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+		background: rgba(204, 204, 204, 0.58);
+		padding: 20px 23px;
+		min-height: 113px;
+		border-radius: 5px;
+		transition: .3s;
+
+		&__text {
+			color: rgb(43, 124, 116);
+			font-weight: 700;
+			font-size: 18px;
+			transition: .3s;
+		}
+
+		&:hover {
+			background: rgb(182, 232, 227);
+
+			.links-products-el__text {
+				color: #fff;
+			}
+		}
+
+		&_2 {
+			.links-products-el__text {
+				font-weight: 700;
+				font-size: 22px;
+			}
+
+			&:hover {
+				.links-products-el__text {
+					color: rgb(43, 124, 116);
+				}
+			}
+		}
+	}
+}
+
+.img-dec {
+	width: 150px;
+	height: 120px;
+	padding: 5px;
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px 0px;
+	opacity: 1;
+	transition: .3s;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
 }
