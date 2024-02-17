@@ -49,6 +49,19 @@
   .links-products__side {
     padding: 0 30px;
   }
+
+  .about-info {
+    display: block;
+  }
+
+  .about-info__left {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .about-info__gal {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
