@@ -10,7 +10,7 @@ function Home() {
               <div className="wrap-article text-info">
                 <p>Компания "РУТЕСИЛ" была основана в 2005 году для разработки и производства высокотехнологичных силиконовых материалов, применяемых в машиностроении, строительстве, нефтедобыче, пищевой, косметической и электротехнической отраслях.</p>
               </div>
-              <Link href="#" className="btn-def home-info__btn"><span>Далее</span></Link>
+              <Link to="about" className="btn-def home-info__btn"><span>Далее</span></Link>
             </div>
             <div className="home-info__products">
               <div className="products">

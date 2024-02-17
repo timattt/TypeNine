@@ -136,3 +136,19 @@
 strong {
   font-weight: 600;
 }
+
+.color-g {
+  color: rgb(43, 124, 116);
+}
+
+.btn-def-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  background: rgb(141, 209, 202);
+  color: #fff;
+  padding: 10px 11px;
+}

@@ -165,3 +165,54 @@ img {}
 		}
 	}
 }
+
+.about-info {
+	display: flex;
+	justify-content: space-between;
+
+	&__title {
+		margin-bottom: 21px;
+	}
+
+	&__left {
+		width: 550px;
+		margin-right: 40px;
+	}
+
+	&__gal {
+		width: 360px;
+
+		&-img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 30px;
+			border-radius: 5px;
+		}
+	}
+}
+
+.contacts-block {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 520px;
+
+	&__title {
+		margin-bottom: 20px;
+	}
+
+	&__text {
+		text-align: left;
+	}
+
+	&__form {
+		margin-top: 30px;
+		display: flex;
+		flex-direction: column;
+
+		&-btn {
+			align-self: flex-end;
+		}
+
+	}
+}

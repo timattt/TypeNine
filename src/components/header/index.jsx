@@ -54,9 +54,9 @@ function Menu() {
                 <BtnClose/>
                 <ul className="links-def">
                   <li className={"links-def__el " + (location['pathname'] == '/' ?'active':'')}><Link to="/" className="links-def__link">Главная</Link></li>
-                  <li className="links-def__el"><a href="#" className="links-def__link">О нас</a></li>
+                  <li className={"links-def__el " + (location['pathname'] == '/about' ?'active':'')}><Link to="about" className="links-def__link">О нас</Link></li>
                   <li className={"links-def__el " + (location['pathname'] == '/products' ?'active':'')}><Link to="products" className="links-def__link">Продукты</Link></li>
-                  <li className="links-def__el"><a href="#" className="links-def__link">Контакты</a></li>
+                  <li className={"links-def__el " + (location['pathname'] == '/contacts' ?'active':'')}><Link to="contacts" className="links-def__link">Контакты</Link></li>
                 </ul>
               </nav>
               <Btn/>

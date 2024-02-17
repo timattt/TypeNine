@@ -38,6 +38,9 @@ import Methylsilicagel2 from "./info/Methylsilicagel2";
 import Other from "./info/Other";
 import TartaricAcid from "./info/TartaricAcid";
 
+import About from "./views/About";
+import Contacts from "./views/Contacts";
+
 const routes = [
   { path: '/', name: 'Home', element: <Home />, nodeRef: createRef() },
   { path: 'products', name: 'Products', element: <Products />, nodeRef: createRef() },
@@ -58,6 +61,8 @@ const routes = [
   { path: 'products/methylsilicagel/methylsilicagel-2', name: 'Methylsilicagel2', element: <Methylsilicagel2 />, nodeRef: createRef() },
   { path: 'products/other', name: 'Other', element: <Other />, nodeRef: createRef() },
   { path: 'products/other/tartaric-acid', name: 'TartaricAcid', element: <TartaricAcid />, nodeRef: createRef() },
+  { path: 'about', name: 'About', element: <About />, nodeRef: createRef() },
+  { path: 'contacts', name: 'Contacts', element: <Contacts />, nodeRef: createRef() },
 ]
 
 const router = createBrowserRouter([

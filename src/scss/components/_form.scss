@@ -1,0 +1,24 @@
+.inp-def {
+  width: 100%;
+  display: block;
+  height: 40px;
+  border: 1px solid rgb(160, 160, 159);
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.textarea-def {
+  width: 100%;
+  display: block;
+  height: 130px;
+  border: 1px solid rgb(160, 160, 159);
+  padding: 10px 15px;
+  font-size: 18px;
+  resize: none;
+}
+
+.form-el {
+  &_m {
+    margin-bottom: 15px;
+  }
+}
